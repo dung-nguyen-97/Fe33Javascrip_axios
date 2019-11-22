@@ -1,0 +1,23 @@
+git config --global user.name ""
+git config --global user.email
+git clone link ssh git hub: add link git hub
+git status: 
+git add: add file staging (add file thay doi)
+git commit -m "mesager" local re...
+git push origin
+Note: (*)config: lầu đầu tiên khi cài đặt (chỉ sử dụng lần đầu tiền)
+git config --global user.name "username"
+git config --global user.email "email"
+(*) Kéo file về máy tính
+git clone <đường dẫn thùng chứa>
+(*)Kiểm tra trạng thái 
+git status 
+	(-) Nếu màu đổ thì đang ở phân vùng Đầu working Copy
+	(-) Nếu mày xanh lá thì đang ở phân vùng THỨ HAI Staging Area
+	(-)
+(*) Di chuyển code từ Working --> Staging
+	gid add
+(*) Di chuyển code từ Staging --> Local Repository
+	git commit -m "Ghi chú"
+(*) Đưa code lên server
+	git push origin <Tên nhánh>
